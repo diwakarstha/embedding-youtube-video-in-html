@@ -1,0 +1,15 @@
+#navbar {
+  background-color: black;
+}
+
+#sidebar {
+  background-color: red;
+  float: left;
+  width: 10%;
+}
+
+#video {
+  background-color: blue;
+  float: right;
+  width: 90%;
+}
