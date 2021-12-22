@@ -1,15 +1,35 @@
 #navbar {
-  background-color: black;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: large;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: whitesmoke;
 }
 
 #sidebar {
-  background-color: red;
-  float: left;
-  width: 10%;
+  float: right;
+  width: 30%;
 }
 
 #video {
-  background-color: blue;
-  float: right;
-  width: 90%;
+  float: left;
+  width: 70%;
+  text-align: center;
+}
+@media only screen and (max-width: 1850px) {
+  #sidebar {
+    float: none;
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 10%;
+  }
+  #video {
+    float: none;
+    width: 100%;
+  }
 }
