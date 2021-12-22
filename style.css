@@ -18,10 +18,20 @@ body {
 
 #video {
   float: left;
-  width: 70%;
-  text-align: center;
+  width: 60%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
-@media only screen and (max-width: 1850px) {
+
+#video-title {
+  text-align: left;
+}
+
+#description {
+  margin-left: 2%;
+}
+
+@media only screen and (max-width: 1450px) {
   #sidebar {
     float: none;
     width: 100%;
